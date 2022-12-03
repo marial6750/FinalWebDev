@@ -121,7 +121,7 @@ img{
 
 /* side nav */
 .sidenav{
-    background: var(--dark);
+    background:var(--transition);
     color: #fff;
     position: fixed;
     top: 0;
@@ -136,7 +136,14 @@ img{
 .sidenav.show{
     right: 0;
 }
+.open-btn{
+    position: absolute;
+    right: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: var(--transition);
 
+}
 
 
 /************/
@@ -184,8 +191,8 @@ img{
 .title{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 30px;
-    color: var(--magenta);
+    font-size: 40px;
+    color: var(--dark);
     border-bottom: 5px solid var(--dark);
     width: 235px;
     margin: 15px 0;
@@ -220,7 +227,7 @@ img{
     margin-left: 0;
     margin-right: 0;
     background: var(--dark);
-    color: #fff;
+    color:#fff;
 }
 @media(min-width: 992px){
     .services-container{
@@ -307,10 +314,10 @@ img{
 /* room */
 
 .rooms{
-    margin: 40px 0;
+    margin: 30px 0;
 }
 .room{
-    margin: 45px 0;
+    margin:40px 0;
     padding-bottom: 25px;
     background: var(--dark);
     color: #fff;
@@ -387,7 +394,7 @@ img{
 .customers{
     margin-top: 40px;
     padding: 40px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
+    background: linear-gradient(rgba(252, 247, 247, 0.5), rgba(0, 0, 0, 0.5)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
 }
 .customer{
     background: #fff;
@@ -400,7 +407,7 @@ img{
 }
 .rating{
     margin: 10px 0;
-    color: var(--magenta);
+    color: var(--dark);
 }
 .customer h3{
     font-size: 25px;
