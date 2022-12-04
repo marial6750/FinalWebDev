@@ -53,13 +53,26 @@ img{
 
 /* header */
 .header{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("Houston.png") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("houston.png") center/cover no-repeat;
     min-height: 100vh;
     color: #fff;
     padding: 25px;
     display: flex;
     flex-direction: column;
     align-content: stretch;
+}
+.page-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("houston.png") center/cover no-repeat;
+  background-size: cover;
+}
+
+.page-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("restaurant.jpg") center/cover no-repeat;
+  background-size: cover;
+}
+.page-three {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("bar.jpg") center/cover no-repeat;
+  background-size: cover;
 }
 .head-top{
     display: flex;
