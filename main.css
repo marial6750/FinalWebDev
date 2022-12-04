@@ -466,7 +466,43 @@ img{
         height: 100px;
     }
 }
+/* dining */
+.dining-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: var(--Gray);
+    border-bottom: 5px solid var(--dark);
+    width: 235px;
+    margin: 15px 0;
+}
 
+.dining-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+		padding: 4px 32px;
+    }
+.dining-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+   background-color: #f1f1f1;
+}
+.dining img {
+  border-radius: 5px 5px 0 0;
+}
+/* On mouse-over, add a deeper shadow */
+.dining-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 4px 32px;
+}
 /* footer */
 .footer{
     background: var(--dark);
