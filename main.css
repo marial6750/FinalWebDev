@@ -77,6 +77,10 @@ img{
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("cleaning.jpg") center/cover no-repeat;
   background-size: cover;
 }
+.page-five {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("frontdesk.jpeg") center/cover no-repeat;
+  background-size: cover;
+}
 .head-top{
     display: flex;
     justify-content: space-between;
